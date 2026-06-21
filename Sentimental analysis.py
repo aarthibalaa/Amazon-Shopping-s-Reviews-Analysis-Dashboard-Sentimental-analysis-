@@ -49,9 +49,6 @@ def polarity(text):
 
 df['polarity'] = df['text'].apply(polarity)
 
-# View result
-#print(df.head(10))
-
 def sentiment(label):
     if label <0:
         return "Negative"
